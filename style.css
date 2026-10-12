@@ -22,7 +22,11 @@ body {
     background-size: cover;
     position: relative;
 }
-
+@media screen and (max-width: 1250px) {
+    body {
+        background-position: 0em 0em;
+    }
+}
 #profilePicture, #profilePicture img {
     position: relative;
     width: 200px;
@@ -70,6 +74,11 @@ body {
     width : 30%;
     margin : auto;
     padding : 1em;
+}
+@media screen and (max-width: 1250px) {
+    #bg {
+    width : 80%;
+    }
 }
 
 .link {
